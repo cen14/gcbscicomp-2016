@@ -12,7 +12,7 @@ def detect_problems(filename):
     else:
         print 'Seems OK!'
         
-filenames = glob.glob('/Users/dcl9/gcbCourse/materials/cshl_rna_seq/*.bed*')
+filenames = glob.glob('data/*.bed')
 for f in filenames[:3]:
     print f
     detect_problems(f)
